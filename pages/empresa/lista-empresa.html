@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../estilo/global.css" />
+    <title>Lista Empresa</title>
+</head>
+<body>
+    <table id="table1">         
+        <thead>
+            <tr>
+                <th>Nome Empresa</th>
+                <th>Email</th>
+                <th id="cnpjList" onload="formatarCPF()">CNPJ </th>
+                <th>Data Cadastro </th>
+                <th>Data Alteração </th>
+                <th>Editar </th>
+                <th>Excluir </th>
+            </tr>
+        </thead>
+        
+        <tbody class="lista-empresa">
+            
+        </tbody>
+    </table>
+
+    <script src="./../../controllers/empresa-controller.js"></script>
+</body>
+</html>

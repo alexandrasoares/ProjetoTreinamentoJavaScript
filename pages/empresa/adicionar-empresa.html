@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../estilo/global.css" />
+    <title>Adicionar Empresa</title>
+</head>
+<body>
+    <div>
+        <form class="form-empresa" method="POST">
+            <br>
+            <label for="nome_empresa">Nome da Empresa: </label>
+            <input type="text" id="nome_empresa"/>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" data-js="email"/>
+            <br>
+            <label for="cnpj">CNPJ</label>
+            <input type="text" id="cnpj" data-js="cnpj"/>
+            <br>
+            <label for="data_cadastro">Data cadastro</label>
+            <input type="text" id="data_cadastro" data-js="data"/>
+            <br>
+            <label for="data_alteracao">Data alteracao</label>
+            <input type="text" id="data_alteracao" data-js="data_alteracao"/>
+            <br>
+
+            <button type="submit"> Cadastrar Empresa </button>
+        </form>
+    </div>
+    <script src="./../../controllers/empresa-controller.js"></script>
+    <script src="./../../core/mask.js"></script>
+</body>
+</html>
